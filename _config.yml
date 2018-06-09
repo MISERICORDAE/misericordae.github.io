@@ -32,13 +32,13 @@ navbar-links:
     - MYETHERWALLET (MEW): "https://www.myetherwallet.com/#offline-transaction"
     - ETHERSCAN: "https://etherscan.io/"
     - IDEX: "https://idex.market/"
-    - Original Idea of Blockchain by Satoshi Nakamoto: "https://bitcoincore.org/bitcoin.pdf"
+    - Idea of Blockchain by Satoshi Nakamoto: "https://bitcoincore.org/bitcoin.pdf"
     - CoinTelegraph: "https://cointelegraph.com/news/"
   #Misericordae's home: "https://misericordae.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.jpg"
+avatar: "/img/MISERICORDAE ONNI 587x588.jpeg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -50,13 +50,13 @@ avatar: "/img/avatar-icon.jpg"
 
 navbar-col: "#006000"
 navbar-text-col: "#FFFFFF"
-navbar-children-col: "#00A000"
+navbar-children-col: "#00B000"
 page-col: "#FFFFFF"
-link-col: "#00A200"
+link-col: "#00B200"
 hover-col: "#00DD00"
 footer-col: "#006000"
 footer-text-col: "#FFFFFF"
-footer-link-col: "#00A200"
+footer-link-col: "#00B200"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -69,8 +69,8 @@ footer-link-col: "#00A200"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author: MISERICORDAE
-  name: Misericordae
+author:
+  name: MISERICORDAE
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -80,9 +80,9 @@ social-network-links:
   rss: true
   email: "misericordae@pm.me"
   github: misericordae
-  discord: Cfd3XkY
+  bitcointalk: "index.php?"
+  discordapp: "invite/Cfd3XkY"
   disqus: misericordae
-  bitcointalk: misericordae project
   allcryptotalk: misericordae
   cryptointalk: misericordae
 
@@ -96,7 +96,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "Misericordae.com"  # eg. "deanattali.com/beautiful-jekyll"
+ url-pretty: "misericordae.github.io/onni"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -133,10 +133,10 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "London"
+timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:year-:month-:day-:title/
+permalink: /:year-:month-:day-:title/
 paginate: 5
 kramdown:
   input: GFM
