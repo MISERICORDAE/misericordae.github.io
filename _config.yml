@@ -81,17 +81,19 @@ social-network-links:
   email: "misericordae@pm.me"
   github: misericordae
   bitcointalk: "index.php?"
-  discordapp: "invite/Cfd3XkY"
-  disqus: misericordae
   allcryptotalk: misericordae
   cryptointalk: misericordae
+  discordapp: Cfd3XkY
+  disqus: misericordae
 
 
 # Select which share links to show in posts
 share-links-active:
-  discord: true
+  github: true
+  discordapp: true
   disqus: true
   bitcointalk: true
+  allcryptotalk: true
   cryptointalk: false
 
 # How to display the link to the website in the footer
@@ -136,7 +138,7 @@ title-separator: "-"
 timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:year-:month-:day-:title/
+permalink: /blog/:year/:month/:day/:title
 paginate: 5
 kramdown:
   input: GFM
