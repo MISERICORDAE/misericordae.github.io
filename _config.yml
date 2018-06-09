@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: MISERICORDAE
+title: MISERICORDAE PROJECT
 
 # Short description of your site
 description: MISERICORDAE BLOCKCHAIN PROJECT!
@@ -23,23 +23,26 @@ description: MISERICORDAE BLOCKCHAIN PROJECT!
 
 # List of links in the navigation bar
 navbar-links:
-  About: "aboutmisericordae"
+  About: "about"
   Whitepaper: "whitepaper"
   Onni: "onni"
+  Blog: "blog"
   Resources:
     - METAMASK: "https://metamask.io/"
-    - GOOGLE CHROME METAMASK: "https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn"
     - MYETHERWALLET (MEW): "https://www.myetherwallet.com/#offline-transaction"
     - ETHERSCAN: "https://etherscan.io/"
-  Misericordae's home: "https://misericordae.github.io"
+    - IDEX: "https://idex.market/"
+    - Original Idea of Blockchain by Satoshi Nakamoto: "https://bitcoincore.org/bitcoin.pdf"
+    - CoinTelegraph: "https://cointelegraph.com/news/"
+  #Misericordae's home: "https://misericordae.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.jpg"
+avatar: "/img/avataricon.jpeg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: /img/MISERICORDAE ONNI 587x588.jpeg
+#title-img: /img/MISERICORDAE ONNI 587x588.jpeg
 
 # --- Background colour/image options --- #
 
@@ -66,8 +69,8 @@ footer-link-col: "#00A200"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-#author: MISERICORDAE
- # name:  
+author:
+  name: Misericordae
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -76,13 +79,13 @@ footer-link-col: "#00A200"
 social-network-links:
   rss: true
   email: "misericordae@pm.me"
-  discord: Cfd3XkY
   github: misericordae
-  bitcointalk: misericordae project
+  discord: Cfd3XkY
   disqus: misericordae
+  bitcointalk: misericordae project
   allcryptotalk: misericordae
   cryptointalk: misericordae
-  yelp: misericordae
+
 
 # Select which share links to show in posts
 share-links-active:

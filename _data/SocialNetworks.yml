@@ -6,36 +6,6 @@
 #            site.social-network-links.<key>
 #   icon: Specify a valid fontawesome icon class
 
-github:
-  name: "GitHub"
-  baseURL: "https://github.com/"
-  icon: "fa-github"
-
-discord:
-  name: "Discord"
-  baseURL: "https://discord.gg/"
-  icon: "fa-discord"
-
-disqus:
-  name: "Disqus"
-  baseURL: "https://disqus.com/"
-  icon: "fa-disqus"
-
-bitcointalk:
-  name: "BitcoinTalk"
-  baseURL: "https://bitcointalk.org/"
-  icon: "fa-bitcoin-talk"
-
-allcryptotalk:
-  name: "AllCryptoTalk"
-  baseURL: "https://allcryptotalk.com"
-  icon: "fa-all-crypto-talk"
-
-cryptointalk:
-  name: "cryptointalk"
-  baseURL: "http://cryptointalk.com"
-  icon: "fa-cryptoin-talk"
-
 email:
   name: "Email me"
   baseURL: "mailto:"
@@ -46,7 +16,32 @@ rss:
   baseURL: "{{ '/feed.xml' | prepend: site.baseurl }}"
   icon: "fa-rss"
 
-yelp:
-  name: "Yelp"
-  baseURL: "https://{{ site.author.yelp }}.yelp.com"
-  icon: "fa-yelp"
+github:
+  name: "GitHub"
+  baseURL: "https://github.com/"
+  icon: "fa-github"
+
+discord:
+  name: "Discordapp"
+  baseURL: "https://discord.gg/"
+  icon: "fa-discord-o"
+
+disqus:
+  name: "Disqus"
+  baseURL: "https://disqus.com/"
+  icon: "fa-disqus"
+
+bitcointalk:
+  name: "BitcoinTalk"
+  baseURL: "https://bitcointalk.org/"
+  icon: "fa-bitcoin"
+
+allcryptotalk:
+  name: "AllCryptoTalk"
+  baseURL: "https://allcryptotalk.com"
+  icon: "fa-ethereum"
+
+cryptointalk:
+  name: "cryptointalk"
+  baseURL: "http://cryptointalk.com"
+  icon: "fa-ethereum"
