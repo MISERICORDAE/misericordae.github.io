@@ -8,8 +8,8 @@ url: "https://misericordae.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+#url: https://misericordae.github.io/misericordae
+#baseurl: "/misericordae"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
@@ -96,7 +96,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
- url-pretty: "misericordae.github.io/onni"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "misericordae.github.io/onni"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -124,7 +124,7 @@ disqus: "misericordae-blog"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 70
+excerpt_length: 50
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
@@ -136,7 +136,7 @@ title-separator: "-"
 timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /blog/:year-:month-:day-:title/
 paginate: 5
 kramdown:
   input: GFM
