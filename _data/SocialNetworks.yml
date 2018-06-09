@@ -29,7 +29,7 @@ discord:
 disqus:
   name: "Disqus"
   baseURL: "https://disqus.com/"
-  icon: "<i class="far fa-comments"></i>"
+  icon: "fa-comments"
 
 bitcointalk:
   name: "BitcoinTalk"
@@ -39,7 +39,7 @@ bitcointalk:
 allcryptotalk:
   name: "AllCryptoTalk"
   baseURL: "https://allcryptotalk.com/"
-  icon: "<i class="fab fa-ethereum"></i>"
+  icon: "fa-ethereum"
 
 cryptointalk:
   name: "cryptointalk"
