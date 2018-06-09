@@ -66,8 +66,8 @@ footer-link-col: "#00A200"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author: MISERICORDAE
-  name: MISERICORDAE BLOCKCHAIN
+#author: MISERICORDAE
+ # name:  
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -93,7 +93,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "Misericordae.com"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "Misericordae.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -161,7 +161,6 @@ link-tags: true
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
-  - CNAME
   - Dockerfile
   - Gemfile
   - Gemfile.lock
