@@ -22,7 +22,7 @@ github:
   icon: "fa-github"
 
 discord:
-  name: "Discordapp"
+  name: "Discord"
   baseURL: "https://discord.gg/"
   icon: "<i class="fab fa-discord"></i>"
 
