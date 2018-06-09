@@ -24,7 +24,7 @@ github:
 discord:
   name: "Discord"
   baseURL: "https://discord.gg/"
-  icon: "<i class="fab fa-discord"></i>"
+  icon: "fa-discord"
 
 disqus:
   name: "Disqus"
