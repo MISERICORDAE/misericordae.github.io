@@ -80,8 +80,8 @@ social-network-links:
   rss: true
   email: "misericordae@pm.me"
   github: misericordae
-  bitcointalk: "index.php?"
-  allcryptotalk: misericordae
+  bitcointalk: index.php?action=profile;u=2172586
+  allcryptotalk: index.php?/blogs/blog/91-misericordae-project/
   discord: Cfd3XkY
   disqus: misericordae
 
