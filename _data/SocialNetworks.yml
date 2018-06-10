@@ -24,7 +24,7 @@ github:
 discord:
   name: "Discord"
   baseURL: "https://discord.gg/"
-  icon: "fa-discord"
+  icon: "fa-whatsapp"
 
 disqus:
   name: "Disqus"
@@ -38,10 +38,6 @@ bitcointalk:
 
 allcryptotalk:
   name: "AllCryptoTalk"
-  baseURL: "https://allcryptotalk.com/"
-  icon: "fa-ethereum"
+  baseURL: "https://allcryptotalk.com/index.php?/blogs/blog/91-misericordae-project/"
+  icon: "fa-money"
 
-cryptointalk:
-  name: "cryptointalk"
-  baseURL: "http://cryptointalk.com/"
-  icon: "fa-viacoin"
