@@ -82,7 +82,6 @@ social-network-links:
   github: misericordae
   bitcointalk: "index.php?"
   allcryptotalk: misericordae
-  cryptointalk: misericordae
   discord: Cfd3XkY
   disqus: misericordae
 
@@ -94,8 +93,7 @@ share-links-active:
   disqus: true
   bitcointalk: true
   allcryptotalk: true
-  cryptointalk: false
-
+  
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
 # url-pretty: "misericordae.github.io/onni"  # eg. "deanattali.com/beautiful-jekyll"
