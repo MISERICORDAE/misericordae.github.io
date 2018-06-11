@@ -26,14 +26,24 @@ navbar-links:
   About: "about"
   Whitepaper: "whitepaper"
   Onni: "onni"
+    - Get ONNI: "https://misericordae.github.io/onni/getonni/"
+    - Exchange ONNI: "https://misericordae.github.io/onni/exchangeonni/"
   Blog: "blog"
   Resources:
-    - METAMASK: "https://metamask.io/"
+    - GITHUB: "https://github.com/misericordae/"
+    - EXCHANGES:
+         - KOMODO BARTERDEX PLATFORM: "https://komodoplatform.com/decentralized-exchange/"
+         - ETHERDELTA PLATFORM: "https://etherdelta.com/"
+              - How to Get Started using Metamask: "https://www.reddit.com/r/EtherDelta/comments/6hrgbh/how_to_get_started_using_metamask/"
+              - How to Trade, Execute a Trade and Place an Order: "https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/"
+              - How to Deposit, Withdraw and Transfer: "https://www.reddit.com/r/EtherDelta/comments/6hrmsl/how_to_deposit_withdraw_and_transfer/"
+         - IDEX: "https://idex.market/"
+         - METAMASK: "https://metamask.io/"
     - MYETHERWALLET (MEW): "https://www.myetherwallet.com/#offline-transaction"
     - ETHERSCAN: "https://etherscan.io/"
-    - IDEX: "https://idex.market/"
-    - Idea of Blockchain by Satoshi Nakamoto: "https://bitcoincore.org/bitcoin.pdf"
     - CoinTelegraph: "https://cointelegraph.com/news/"
+    - Idea of Blockchain by Satoshi Nakamoto: "https://bitcoincore.org/bitcoin.pdf"
+
   #Misericordae's home: "https://misericordae.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -93,7 +103,7 @@ share-links-active:
   disqus: true
   bitcointalk: true
   allcryptotalk: true
-  
+
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
 # url-pretty: "misericordae.github.io/onni"  # eg. "deanattali.com/beautiful-jekyll"
