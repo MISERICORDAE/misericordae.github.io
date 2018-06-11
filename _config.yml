@@ -27,8 +27,8 @@ navbar-links:
   Whitepaper: "whitepaper"
   Onni:
     - Onni: "https://misericordae.github.io/onni/onni/"
-    - Get Onni: "https://misericordae.github.io/onni/getonni/"
-    - Exchange Onni: "https://misericordae.github.io/onni/exchangeonni/"
+    - Get: "https://misericordae.github.io/onni/getonni/"
+    - Exchange: "https://misericordae.github.io/onni/exchangeonni/"
   Blog: "blog"
   Resources:
     - GITHUB: "https://github.com/misericordae/"
