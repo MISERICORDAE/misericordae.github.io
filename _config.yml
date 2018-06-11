@@ -26,14 +26,14 @@ navbar-links:
   About: "about"
   Whitepaper: "whitepaper"
   Onni:
-    - Onni: "onni"
-    - Get Onni: "getonni"
-    - Exchange Onni: "exchangeonni"
+    - Onni: "https://misericordae.github.io/onni/onni/"
+    - Get Onni: "https://misericordae.github.io/onni/getonni/"
+    - Exchange Onni: "https://misericordae.github.io/onni/exchangeonni/"
   Blog: "blog"
   Resources:
     - GITHUB: "https://github.com/misericordae/"
     - KOMODO BARTERDEX PLATFORM: "https://komodoplatform.com/decentralized-exchange/"
-    - ETHERDELTA PLATFORM: "https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/"          
+    - ETHERDELTA PLATFORM: "https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/"
     - IDEX: "https://idex.market/"
     - METAMASK: "https://metamask.io/"
     - MYETHERWALLET (MEW): "https://www.myetherwallet.com/#offline-transaction"
