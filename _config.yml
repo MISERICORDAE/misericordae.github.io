@@ -33,10 +33,7 @@ navbar-links:
   Resources:
     - GITHUB: "https://github.com/misericordae/"
     - KOMODO BARTERDEX PLATFORM: "https://komodoplatform.com/decentralized-exchange/"
-    - ETHERDELTA PLATFORM:
-               "https://www.reddit.com/r/EtherDelta/comments/6hrgbh/how_to_get_started_using_metamask/"
-              "https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/"
-              "https://www.reddit.com/r/EtherDelta/comments/6hrmsl/how_to_deposit_withdraw_and_transfer/"
+    - ETHERDELTA PLATFORM: "https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/"          
     - IDEX: "https://idex.market/"
     - METAMASK: "https://metamask.io/"
     - MYETHERWALLET (MEW): "https://www.myetherwallet.com/#offline-transaction"
