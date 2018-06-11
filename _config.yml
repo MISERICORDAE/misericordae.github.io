@@ -26,19 +26,19 @@ navbar-links:
   About: "about"
   Whitepaper: "whitepaper"
   Onni:
-    - Get Onni: "https://misericordae.github.io/onni/GetOnni/"
-    - Exchange Onni: "https://misericordae.github.io/onni/ExchangeOnni/"
+    - Onni: "onni"
+    - Get Onni: "GetOnni"
+    - Exchange Onni: "ExchangeOnni"
   Blog: "blog"
   Resources:
     - GITHUB: "https://github.com/misericordae/"
-    - EXCHANGES:
-         - KOMODO BARTERDEX PLATFORM: "https://komodoplatform.com/decentralized-exchange/"
-         - ETHERDELTA PLATFORM:
+    - KOMODO BARTERDEX PLATFORM: "https://komodoplatform.com/decentralized-exchange/"
+    - ETHERDELTA PLATFORM:
               - How to Get Started using Metamask: "https://www.reddit.com/r/EtherDelta/comments/6hrgbh/how_to_get_started_using_metamask/"
               - How to Trade, Execute a Trade and Place an Order: "https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/"
               - How to Deposit, Withdraw and Transfer: "https://www.reddit.com/r/EtherDelta/comments/6hrmsl/how_to_deposit_withdraw_and_transfer/"
-         - IDEX: "https://idex.market/"
-         - METAMASK: "https://metamask.io/"
+    - IDEX: "https://idex.market/"
+    - METAMASK: "https://metamask.io/"
     - MYETHERWALLET (MEW): "https://www.myetherwallet.com/#offline-transaction"
     - ETHERSCAN: "https://etherscan.io/"
     - CoinTelegraph: "https://cointelegraph.com/news/"
