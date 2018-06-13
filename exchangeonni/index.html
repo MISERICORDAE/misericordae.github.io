@@ -33,23 +33,73 @@ li {
 </html>
 
        <div class="onni">
-       <h1>EXCHANGE ONNI</h1>
-	       <p> You can swap or trade your Onni on Exchange Platforms. The following recommended platforms are decentralized, secure, free or very low-cost:
+       <h1>SWAP ONNI</h1>
+
+
+       <!doctype html>
+       <html class="no-js" lang="">
+           <head>
+               <meta charset="utf-8">
+               <meta http-equiv="x-ua-compatible" content="ie=edge">
+               <title></title>
+               <meta name="description" content="">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <script src="https://cdn.airswap.io/gallery/airswap-trader.js"></script>
+               <script type="text/javascript">
+                   function buy() {
+                     AirSwap.Trader.render({
+                         env: 'sandbox',
+                         mode: 'buy',
+                         token: '0x1515fb6a2de836472943bb64e7cc02102d5967ed',
+                         amount: 5 * (10 ** 4),
+                         onCancel: function () {
+                             console.info('Trade was canceled.');
+                         },
+                         onComplete: function(transactionId) {
+                             console.info('Trade complete. Thank you, come again.');
+                         }
+                     }, 'body');
+                   }
+                   function sell() {
+                     AirSwap.Trader.render({
+                         env: 'sandbox',
+                         mode: 'sell',
+                         token: '0x1515fb6a2de836472943bb64e7cc02102d5967ed',
+                         onCancel: function () {
+                             console.info('Trade was canceled.');
+                         },
+                         onComplete: function(transactionId) {
+                             console.info('Trade complete. Thank you, come again.');
+                         }
+                     }, 'body');
+                   }
+               </script>
+           </head>
+           <body>
+               <h2>WELCOME TO ONNI/ETHER/ERC20 SWAP SHOP!</h2>
+      <img class="img-responsive" src="/img/airswap.jpg"/><img class="img-responsive" src="/img/onnicoinsymbols.jpg"/><img class="img-responsive" src="/img/airswap.jpg"/>
+       <p> Swap your Onni to Ether or ERC20 tokens here at no service cost. Apart from your normal gas price for ethereum transactions, this is free.</p>
+               <button onclick="buy();" class="btn btn-primary">Find ADT Sellers</button>
+               <button onclick="sell();" class="btn btn-primary">Find ADT Buyers</button>
+           </body>
+       </html>
+     </br>
+	       <p> You can also swap or trade your Onni on the following recommended platforms which are decentralized, secure, and free or very low-cost:
          <ul>
          <li><img class="img-responsive" src="/img/Komodo Barterdex.jpg"/>
-           <a href="https://komodoplatform.com/decentralized-exchange/"><strong>KOMODO BARTERDEX PLATFORM</strong></a> - An advanced decentralized exchange that conducts atomic swap between most existing blockchain cryptocurrencies including Ethereum blockchain and its ERC20 tokens. This means that you can enjoy seamless exchange between Onni and Bitcoin, Ether, Litecoin, Dash, Monero,...etc.
+           <a href="https://komodoplatform.com/decentralized-exchange/"><h2>KOMODO BARTERDEX PLATFORM</h2></a> - An advanced decentralized exchange that conducts atomic swap between most existing blockchain cryptocurrencies including Ethereum blockchain and its ERC20 tokens. This means that you can enjoy seamless exchange between Onni and Bitcoin, Ether, Litecoin, Dash, Monero,...etc.
           </li>
 </br>
          <li><img class="img-responsive" src="/img/etherdelta.png"/>
-         <a href="https://etherdelta.com/#0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f-ETH"><strong>ETHERDELTA PLATFORM</strong></a> - A decentralized exchange that conducts atomic swap between most existing ERC20 tokens and Ether. This means that you can enjoy seamless exchange between Onni, Ether,  and ERC20 tokens. This is a helpful guide to get started on EtherDelta, <a href="https://www.reddit.com/r/EtherDelta/comments/6hrxjw/etherdelta_guides_for_first_time_users/"><strong>Guides for First Time Users</strong></a>.
+         <a href="https://etherdelta.com/#0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f-ETH"><h2>ETHERDELTA PLATFORM</h2></a> - A decentralized exchange that conducts atomic swap between most existing ERC20 tokens and Ether. This means that you can enjoy seamless exchange between Onni, Ether,  and ERC20 tokens. This is a helpful guide to get started on EtherDelta, <a href="https://www.reddit.com/r/EtherDelta/comments/6hrxjw/etherdelta_guides_for_first_time_users/"><strong>Guides for First Time Users</strong></a> with <a href="https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/"><strong>guides on how to trade</strong></a>
          </li>
 </br>
         <li><img class="img-responsive" src="/img/IDEX.jpg"/>
-          <a href="https://idex.market"><strong>IDEX PLATFORM</strong></a> - A decentralized exchange similar to EtherDelta that conducts atomic swap between most existing ERC20 tokens and Ether. You can swap between Onni, Ether, and ERC20 tokens.
+          <a href="https://idex.market"><h2>IDEX PLATFORM</h2></a> - A decentralized exchange similar to EtherDelta that conducts atomic swap between most existing ERC20 tokens and Ether. You can swap between Onni, Ether, and ERC20 tokens.
           </li>
 </br>
        <li><img class="img-responsive" src="/img/metamask.jpg"/>
-         <a href="https://metamask.io"><strong>METAMASK</strong></a> - This is the ideal preference for trading on Ethereum Blockchain. It can be used for peer-to-peer buying and selling through transfers (send). So it is recommended. Go to <a href="https://metamask.io">Metamask Website</a> and choose your browser with the accompanying guides. Chrome Browser is widely used and you can add <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn"><strong>METAMASK</strong></a> as an extension. It is advisable to store your Onni and Ether in an Offline Wallet like <a href="https://www.myetherwallet.com/#offline-transaction"><strong>MYETHERWALLET (MEW)</strong></a>.
+         <a href="https://metamask.io"><h2>METAMASK</strong></h2> - This is the ideal preference for trading on Ethereum Blockchain. It can be used for peer-to-peer buying and selling through transfers (send). So it is recommended. Go to <a href="https://metamask.io">Metamask Website</a> and choose your browser with the accompanying guides. Chrome Browser is widely used and you can add <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn"><h2>METAMASK</h2></a> as an extension. It is advisable to store your Onni and Ether in an Offline Wallet like <a href="https://www.myetherwallet.com/#offline-transaction"><h2>MYETHERWALLET (MEW)</h2></a>.
         </li>
       </ul>
       </div>

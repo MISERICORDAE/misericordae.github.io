@@ -32,14 +32,13 @@ navbar-links:
   Blog: "blog"
   Resources:
     - GITHUB: "https://github.com/misericordae/"
-    - KOMODO BARTERDEX PLATFORM: "https://komodoplatform.com/decentralized-exchange/"
-    - ETHERDELTA PLATFORM: "https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/"
-    - IDEX: "https://idex.market/"
+    - EXCHANGE: "https://misericordae.github.io/exchangeonni/"
     - METAMASK: "https://metamask.io/"
     - MYETHERWALLET (MEW): "https://www.myetherwallet.com/#offline-transaction"
     - ETHERSCAN: "https://etherscan.io/"
-    - CoinTelegraph: "https://cointelegraph.com/news/"
-    - Idea of Blockchain by Satoshi Nakamoto: "https://bitcoincore.org/bitcoin.pdf"
+    - CCN: "https://ccn.com/"
+    - COINTELEGRAPH: "https://cointelegraph.com/news/"
+    - BLOCKCHAIN BY SATOSHI NAKAMOTO: "https://bitcoincore.org/bitcoin.pdf"
 
   #Misericordae's home: "https://misericordae.github.io"
 
