@@ -20,7 +20,7 @@ h1 {
         color: #006000;
 }
 h3 {
-        color: #007000;
+        color: #007500;
 }
 p {
         color: #000000;
@@ -50,8 +50,8 @@ li {
                      AirSwap.Trader.render({
                          env: 'sandbox',
                          mode: 'buy',
-                         token: '0x1515fb6a2de836472943bb64e7cc02102d5967ed',
-                         amount: 5 * (10 ** 4),
+                         token: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
+                         amount: 15 * (10 ** 18),
                          onCancel: function () {
                              console.info('Trade was canceled.');
                          },
@@ -64,7 +64,8 @@ li {
                      AirSwap.Trader.render({
                          env: 'sandbox',
                          mode: 'sell',
-                         token: '0x1515fb6a2de836472943bb64e7cc02102d5967ed',
+                         token: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
+                         amount: 15 * (10 ** 18),
                          onCancel: function () {
                              console.info('Trade was canceled.');
                          },
@@ -76,16 +77,20 @@ li {
                </script>
            </head>
            <body>
-               <h3>WELCOME TO ONNI/ETHER/ERC20 SWAP SHOP!</h3>
-      <img class="img-responsive" src="/img/airswap.jpg"/>
+               <h3>WELCOME TO ONNI-ETHER/ERC20 SWAP!</h3>
+      <img class="img-responsive" src="/img/airswaponni.jpg"/>
 
-       <p> Swap your Onni to Ether or ERC20 tokens here at no service cost. Apart from your normal gas price for ethereum transactions, this is free.</p>
+       <p> Swap your Onni to Ether or ERC20 tokens here at no service cost. Apart from your normal gas price for ethereum transactions, this is free. (Onni and Ether are in 18  decimal. 1 ETH will appear as 1x10<sup>18</sup> wei (one with eighteen zeros, i.e. 1000000000000000000).
                <button onclick="buy();" class="btn btn-primary">Find ONNI Sellers</button>
                <button onclick="sell();" class="btn btn-primary">Find ONNI Buyers</button>
+               </p>
            </body>
        </html>
   </br>
          <hr width="50%" size="6" color="006000"  align="left" noshade>
+         <hr width="50%" size="6" color="006000"  align="left" noshade>
+         <hr width="50%" size="6" color="006000"  align="left" noshade>
+  </br>
 	       <p> You can also swap or trade your Onni on the following recommended platforms which are decentralized, secure, and free or very low-cost:
          <ul>
          <li><img class="img-responsive" src="/img/Komodo Barterdex.jpg"/>
@@ -106,6 +111,8 @@ li {
       </ul>
       </div>
 </br>
+        <hr width="50%" size="6" color="006000"  align="left" noshade>
+        <hr width="50%" size="6" color="006000"  align="left" noshade>
         <hr width="50%" size="6" color="006000"  align="left" noshade>
         <p><strong>If you need any form of help, you are welcomed to reach us by Email or connect to our Discord Channel for assistance.</strong></p>
         <iframe src="https://discordapp.com/widget?id=454036082606997505&theme=dark" width="210" height="300" allowtransparency="true" frameborder="0"></iframe>
