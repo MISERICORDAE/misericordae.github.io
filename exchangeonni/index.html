@@ -40,44 +40,7 @@ li {
 
        <!doctype html>
        <html class="no-js" lang="">
-           <head>
-               <meta charset="utf-8">
-               <meta http-equiv="x-ua-compatible" content="ie=edge">
-               <title></title>
-               <meta name="description" content="">
-               <meta name="viewport" content="width=device-width, initial-scale=1">
-               <script src="https://cdn.airswap.io/gallery/airswap-trader.js"></script>
-               <script type="text/javascript">
-                   function buy() {
-                     AirSwap.Trader.render({
-                         env: 'production',
-                         mode: 'buy',
-                         token: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
-                         amount: 15 * (10 ** 2),
-                         onCancel: function () {
-                             console.info('Trade was canceled.');
-                         },
-                         onComplete: function(transactionId) {
-                             console.info('Trade complete. Thank you, come again.');
-                         }
-                     }, 'body');
-                   }
-                   function sell() {
-                     AirSwap.Trader.render({
-                         env: 'production',
-                         mode: 'sell',
-                         token: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
-                         onCancel: function () {
-                             console.info('Trade was canceled.');
-                         },
-                         onComplete: function(transactionId) {
-                             console.info('Trade complete. Thank you, come again.');
-                         }
-                     }, 'body');
-                   }
-               </script>
-           </head>
-           <body>
+        <body>
 
                <h3>WELCOME TO ONNI-ETHER/ERC20 SWAP!</h3>
       <img class="img-responsive" src="/img/airswaponni.jpg"/>
