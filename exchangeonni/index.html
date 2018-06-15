@@ -50,9 +50,9 @@ li {
                <script type="text/javascript">
                    function buy() {
                      AirSwap.Trader.render({
-                         env: 'sandbox',
+                         env: 'production',
                          mode: 'buy',
-                         token: '0xcc1cbd4f67cceb7c001bd4adf98451237a193ff8',
+                         token: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
                          amount: 15 * (10 ** 2),
                          onCancel: function () {
                              console.info('Trade was canceled.');
@@ -64,9 +64,9 @@ li {
                    }
                    function sell() {
                      AirSwap.Trader.render({
-                         env: 'sandbox',
+                         env: 'production',
                          mode: 'sell',
-                         token: '0xcc1cbd4f67cceb7c001bd4adf98451237a193ff8',
+                         token: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
                          onCancel: function () {
                              console.info('Trade was canceled.');
                          },
