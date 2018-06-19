@@ -63,13 +63,13 @@
     <title>ONNI</title>
     <meta name="GOLD-PEGGED PRICE STABLE & HEMIVOLATILE" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="./lib/AirSwap.js"></script>
+    <script src="https://cdn.airswap.io/gallery/airswap-trader.js"></script>
     <script type="text/javascript">
         function buy() {
           AirSwap.Trader.render({
               env: 'production',
               mode: 'buy',
-              token: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
+              token: '0x1515fb6a2de836472943bb64e7cc02102d5967ed',
               amount: 15 * (10 ** 18),
               onCancel: function () {
                   console.info('Trade was canceled.');
@@ -83,7 +83,7 @@
           AirSwap.Trader.render({
               env: 'production',
               mode: 'sell',
-              token: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
+              token: '0x1515fb6a2de836472943bb64e7cc02102d5967ed',
               onCancel: function () {
                   console.info('Trade was canceled.');
               },
