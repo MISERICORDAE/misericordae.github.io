@@ -67,7 +67,7 @@
     <script type="text/javascript">
         function buy() {
           AirSwap.Trader.render({
-              env: 'production',
+              env: 'sandbox',
               mode: 'buy',
               token: '0x1515fb6a2de836472943bb64e7cc02102d5967ed',
               amount: 15 * (10 ** 18),
@@ -81,7 +81,7 @@
         }
         function sell() {
           AirSwap.Trader.render({
-              env: 'production',
+              env: 'sandbox',
               mode: 'sell',
               token: '0x1515fb6a2de836472943bb64e7cc02102d5967ed',
               onCancel: function () {
