@@ -87,7 +87,6 @@
               env: 'production',
               mode: 'sell',
               token: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
-              role:  'maker'
               onCancel: function () {
                   console.info('Trade was canceled.');
               },
@@ -107,3 +106,22 @@
 <meta name="theme-color" content="#ffffff">
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon_package_v0.16/favicon.ico">
+
+
+<head>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script type="text/javascript">
+
+    console.log(web3); // {eth: .., shh: ...} // it's here!
+
+    if (typeof web3 !== 'undefined') {
+      web3 = new Web3(web3.currentProvider);
+    } else {
+      // set the provider you want from Web3.providers
+      web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+    }
+
+    
+
+      </script>
+  </head>
