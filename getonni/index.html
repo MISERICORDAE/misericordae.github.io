@@ -58,18 +58,11 @@ li {
 <html lang="en">
   <head>
     <title>ONNI Account Explorer</title>
- <script src="http://raw.githubusercontent.com/ethereum/web3.js/0.16.0/dist/web3.min.js"></script>
- <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
- <script type="text/javascript" src="web3.min.js"></script>
+ <script src="http://rawgit.com/ethereum/web3.js/0.16.0/dist/web3.min.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/ethjs@0.3.0/dist/ethjs.min.js"></script>
- <script>
- if (typeof web3 !== 'undefined') {
- web3 = new Web3(web3.currentProvider);
- } else {
- // set the provider you want from Web3.providers
-web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnBoEtf4yuGI46hki9"));
-}
 
+ <script>
+ 
 window.addEventListener('load', function() {
             // Check if Web3 has been injected by the browser:
             if (typeof web3 !== 'undefined') {
