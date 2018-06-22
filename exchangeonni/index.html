@@ -208,7 +208,10 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
  // set the provider you want from Web3.providers
 web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnBoEtf4yuGI46hki9"));
 }
-(function (logger) {
+
+p><div class="snippet" data-lang="js" data-hide="false" data-console="true" data-babel="false">
+<div class="snippet-code">
+<pre class="snippet-code-js lang-js prettyprint-override"><code>(function (logger) {
     console.old = console.log;
     console.log = function () {
         var output = "", arg, i;
@@ -273,20 +276,17 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
    });
 
 
-
-
-
-
-
-body {background: #333;}
-.log-boolean,
-.log-undefined {color: magenta;}
-.log-object,
-.log-string {color: orange;}
-.log-number {color: cyan;}
-
-<pre id="logger"></pre>
-
+   <pre class="snippet-code-css lang-css prettyprint-override"><code>
+   body {background: #333;}
+   .log-boolean,
+   .log-undefined {color: magenta;}
+   .log-object,
+   .log-string {color: orange;}
+   .log-number {color: cyan;}</code></pre>
+   <pre class="snippet-code-html lang-html prettyprint-override"><code>&lt;pre id="logger"&gt;&lt;/pre&gt;</code></pre>
+   </div>
+   </div>
+   </p>
 </script>
  </head>
 </html>
