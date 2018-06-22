@@ -192,7 +192,7 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
      if (result) {
        var tokens = web3.utils.toBN(result).toString(); // Convert the result to a usable number string
        var tokenbalance = ('Tokens Owned: ' + web3.utils.fromWei(tokens, 'ether')); // Change the string to be in Ether not Wei, and show it in the webpage
-       document.write('[' + tknaccount + ']<br><br>')
+       document.write('[' + addr + ']<br><br>')
        document.write(tokenbalance + ' Ether');
      }
      else {
