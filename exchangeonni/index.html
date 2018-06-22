@@ -145,7 +145,7 @@ li {
 <html lang="en">
   <head>
     <title>Ethereum Account Explorer</title>
- <script src="http://raw.githubusercontent.com/ethereum/web3.js/0.16.0/dist/web3.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
  <script>
  if (typeof web3 !== 'undefined') {
  web3 = new Web3(web3.currentProvider);
@@ -198,9 +198,9 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
 <html lang="en">
   <head>
     <title>ONNI Account Explorer</title>
- <script src="http://raw.githubusercontent.com/ethereum/web3.js/0.16.0/dist/web3.min.js"></script>
+
  <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
- <script type="text/javascript" src="web3.min.js"></script>
+
  <script>
  if (typeof web3 !== 'undefined') {
  web3 = new Web3(web3.currentProvider);
@@ -208,7 +208,32 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
  // set the provider you want from Web3.providers
 web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnBoEtf4yuGI46hki9"));
 }
+(function (logger) {
+    console.old = console.log;
+    console.log = function () {
+        var output = "", arg, i;
 
+        for (i = 0; i < arguments.length; i++) {
+            arg = arguments[i];
+            output += "<span class=\"log-" + (typeof arg) + "\">";
+
+            if (
+                typeof arg === "object" &&
+                typeof JSON === "object" &&
+                typeof JSON.stringify === "function"
+            ) {
+                output += JSON.stringify(arg);
+            } else {
+                output += arg;
+            }
+
+            output += "</span>&nbsp;";
+        }
+
+        logger.innerHTML += output + "<br>";
+        console.old.apply(undefined, arguments);
+    };
+})(document.getElementById("logger"));
             /*
    A script that gets the token balance of an address using the address and the token contract address, then shows the result in the console.
    This script will only get the tokens from the contract we specify, be sure your queried address has tokens from the contract you specify.
@@ -250,32 +275,7 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
 
 
 
-(function (logger) {
-    console.old = console.log;
-    console.log = function () {
-        var output = "", arg, i;
 
-        for (i = 0; i < arguments.length; i++) {
-            arg = arguments[i];
-            output += "<span class=\"log-" + (typeof arg) + "\">";
-
-            if (
-                typeof arg === "object" &&
-                typeof JSON === "object" &&
-                typeof JSON.stringify === "function"
-            ) {
-                output += JSON.stringify(arg);
-            } else {
-                output += arg;
-            }
-
-            output += "</span>&nbsp;";
-        }
-
-        logger.innerHTML += output + "<br>";
-        console.old.apply(undefined, arguments);
-    };
-})(document.getElementById("logger"));
 
 
 body {background: #333;}
