@@ -179,11 +179,11 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
          var param = query[i].split("=");
          GET[decodeURIComponent(param[0])] = decodeURIComponent(param[1] || "");
        }
-   var contractAddr = '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f';
-   var tknaccount = GET.tknaccount;
-   var tokenaccount = (tknaccount).substring(2);
+   var contractAddr = ('0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f');
+   var addr = GET.addr;
+   var tknAddress = (addr).substring(2);
    // '0x70a08231' is the contract 'balanceOf()' ERC20 token function in hex. A zero buffer is required and then we add the previously defined address with tokens
-   var contractData = ('0x70a08231000000000000000000000000' + tokenaccount);
+   var contractData = ('0x70a08231000000000000000000000000' + tknAddress);
    // Now we call the token contract with the variables from above, response will be a big number string
    web3.eth.call({
        to: contractAddr, // Contract address, used call the token balance of the address in question
@@ -191,7 +191,7 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
        }, function(err, result) {
      if (result) {
        var tokens = web3.utils.toBN(result).toString(); // Convert the result to a usable number string
-       var tokenbalance = web3.utils.fromWei(tokens, 'ether'); // Change the string to be in Ether not Wei, and show it in the webpage
+       var tokenbalance = ('Tokens Owned: ' + web3.utils.fromWei(tokens, 'ether')); // Change the string to be in Ether not Wei, and show it in the webpage
        document.write('[' + tknaccount + ']<br><br>')
        document.write(tokenbalance + ' Ether');
      }
@@ -213,7 +213,7 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
    printAccountBalance();
  </script></p></div>
  <div><form method=GET action="index.html">
- Enter Your ONNI Address: <input type=text size=50 name=tknaccount><input type=submit>
+ Enter Your ONNI Address: <input type=text size=50 name=addr><input type=submit>
  </form>
  <p>Token Balance:
  <script>
