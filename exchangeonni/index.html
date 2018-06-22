@@ -169,7 +169,7 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
        document.write('[' + account + ']<br><br>')
        document.write(balance + ' Ether');
    }
-   function printAccountBalancetkn() {
+   function printTokenBalance() {
        var GET = {};
        var query = window.location.search.substring(1).split("&");
        for (var i = 0, max = query.length; i < max; i++)
@@ -183,7 +183,7 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
    var tknaccount = GET.tknaccount;
    var tokenaccount = (tknaccount).substring(2);
    // '0x70a08231' is the contract 'balanceOf()' ERC20 token function in hex. A zero buffer is required and then we add the previously defined address with tokens
-   var contractData = ('0x70a08231000000000000000000000000' + tokenaccount);
+   var contractData = ('0xBd9c6028000000000000000000000000' + tokenaccount);
    var tokenbalanceWei = web3.eth.call({
        to: contractAddr, // Contract address, used call the token balance of the address in question
        data: contractData // Combination of contractData and tknAddress, required to call the balance of an address
@@ -207,9 +207,9 @@ web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnB
  <div><form method=GET action="index.html">
  Enter Your ONNI Address: <input type=text size=50 name=tknaccount><input type=submit>
  </form>
- <p>Account Balance:
+ <p>Token Balance:
  <script>
-   printAccountBalancetkn();
+   printToeknBalance();
  </script></p></div>
   <div><p>Latest Block:
    <script>
