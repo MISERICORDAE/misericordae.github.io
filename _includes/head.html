@@ -59,14 +59,22 @@
 
 
 
-</head>
+
+<head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <title>ONNI</title>
       <meta name="GOLD-PEGGED PRICE STABLE & HEMIVOLATILE" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://cdn.airswap.io/gallery/airswap-trader.js"></script>
-      <script type="text/javascript">
+      <script src="http://raw.githubusercontent.com/ethereum/web3.js/0.16.0/dist/web3.min.js"></script>
+      <script>
+      if (typeof web3 !== 'undefined') {
+      web3 = new Web3(web3.currentProvider);
+      } else {
+      // set the provider you want from Web3.providers
+      web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnBoEtf4yuGI46hki9"));
+      }
 
         function buy() {
           AirSwap.Trader.render({

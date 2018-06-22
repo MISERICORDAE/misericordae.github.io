@@ -25,6 +25,9 @@ h3 {
 h4 {
         color: #008000;
 }
+h5 {
+        color: #99AA00;
+}
 p {
         color: #000000;
 }
@@ -34,6 +37,7 @@ li {
 </style>
 </head>
 </html>
+
 
        <div class="onni">
        <h1>SWAP ONNI</h1>
@@ -68,6 +72,62 @@ li {
        </br>
        </br>
        <h3>DECENTRALIZED EXCHANGE BETWEEN ONNI AND ETHER/ERC20 TOKENS</h3>
+
+       <!DOCTYPE html>
+       <html lang="en">
+         <head>
+           <title>Ethereum Account Explorer</title>
+       	<script src="http://raw.githubusercontent.com/ethereum/web3.js/0.16.0/dist/web3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+        <script type="text/javascript" src="web3.min.js"></script>
+       	<script>
+        if (typeof web3 !== 'undefined') {
+        web3 = new Web3(web3.currentProvider);
+        } else {
+        // set the provider you want from Web3.providers
+       web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/FNgnBoEtf4yuGI46hki9"));
+      }
+       		function printAccountBalance() {
+       				var GET = {};
+       				var query = window.location.search.substring(1).split("&");
+       				for (var i = 0, max = query.length; i < max; i++)
+       				{
+       					if (query[i] === "") // check for trailing & with no param
+       						continue;
+       					var param = query[i].split("=");
+       					GET[decodeURIComponent(param[0])] = decodeURIComponent(param[1] || "");
+       				}
+       				var account = GET.account;
+
+       				var balanceWei = web3.eth.getBalance(account).toNumber();
+       				var balance = web3.fromWei(balanceWei, 'ether');
+
+       				document.write('[' + account + ']<br><br>')
+       				document.write(balance + ' Ether');
+       		}
+       	</script>
+         </head>
+
+         <body>
+         	<h5>Ethereum Account Explorer</h5>
+       	<form method=GET action="index.html">
+       		Enter Your ETH/ONNI Address: <input type=text size=50 name=account><input type=submit>
+       	</form>
+        <p>Account Balance:
+        <script>
+          printAccountBalance();
+        </script>
+        </p>
+       		<br>
+       		<p>Latest Block:
+       		<script>
+       			document.write(web3.eth.blockNumber + "<br><br>");
+       		</script>
+       		</p>
+       		</body>
+       </html>
+       <br>
+       <br>
        <p> To start on these Exchanges listed below, you need METAMASK online wallet or offline Hardware Wallets like Ledger, Trezor.
        <div class="col-sm-3"><img class="img-responsive" src="/img/metamask.jpg"/></div>
        <div class="col-sm-7"><a href="https://metamask.io"><strong>METAMASK</strong></a> is recommended for ETH/ERC20 online exchanges due to its security. It is easy to use. Go to <a href="https://metamask.io">Metamask Website</a> and choose your browser with the accompanying guides. Chrome Browser is widely used and you can add <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn">CHROME METAMASK</a> as an extension. After trading with online Metamask, it is recommended to store your ONNI and ETHER in an Offline Wallet like <a href="https://www.myetherwallet.com/#offline-transaction">MYETHERWALLET (MEW)</a>, Ledger and Trezor Hardware Wallets.</div></p>
@@ -128,7 +188,7 @@ li {
  </br>
 
 
- 
+
 
 
 
