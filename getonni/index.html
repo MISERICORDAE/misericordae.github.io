@@ -56,3 +56,52 @@ li {
          <strong>IMPORTANT:</strong> When you <b>Hold</b> or <b>Save</b> Onni, you can earn reward/interest through <strong>Proof-of-Stake!</strong> You may be incentivized when you <strong>Spend/Utilize</strong> Onni in your day-to-day business.<a href="https://misericordae.github.io/exchangeonni/"><strong>You can easily Swap or Trade your Onni on these Exchange Platforms!</strong></a></p>
 
 <br>
+
+
+<div id="token-history-grouped-3"></div>
+<script type="text/javascript">
+    if (typeof (eWgs) === 'undefined') {
+        document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
+        var eWgs = [];
+    }
+    eWgs.push(function () {
+        ethplorerWidget.init(
+            '#token-history-grouped-3', // Placeholder element
+            'tokenHistoryGrouped', // Widget type
+            {
+                'theme': 'dark',
+                options: {
+
+                    'title': 'ONNICOIN',
+                    'hAxis': {
+                        'title': '90 days coin operations chart',
+                    },
+                    'vAxis': {
+                        'title': 'Coin operations',
+                    }
+                }
+            }
+
+        );
+    });
+</script>
+
+
+<div id="token-txs-10"></div>
+<script type="text/javascript">
+    if (typeof (eWgs) === 'undefined') {
+        document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
+        var eWgs = [];
+    }
+    eWgs.push(function () {
+        ethplorerWidget.init(
+            '#token-txs-10', // Placeholder element
+            'tokenHistory', // Widget type
+            {
+                address: '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21', // keep empty to show all tokens
+                limit: 5, // Number of records to show
+            }
+
+        );
+    });
+</script>
