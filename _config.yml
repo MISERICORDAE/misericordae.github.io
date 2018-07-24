@@ -24,13 +24,13 @@ description: MISERICORDAE BLOCKCHAIN PROJECT!
 # List of links in the navigation bar
 navbar-links:
   About: "about"
-  Whitepaper: "whitepaper"
   Onnicoin:
     - What is Onni: "https://misericordae.github.io/onni"
     - How to Get Onni: "https://misericordae.github.io/getonni/"
   Exchange: "exchangeonni"
   Blog: "blog"
   Resources:
+    - Whitepaper: "https://misericordae.github.io/whitepaper/"
     - GITHUB: "https://github.com/misericordae/"
     - EXCHANGE: "https://misericordae.github.io/exchangeonni/"
     - METAMASK: "https://metamask.io/"
@@ -42,19 +42,6 @@ navbar-links:
     - BLOCKCHAIN BY SATOSHI NAKAMOTO: "https://bitcoincore.org/bitcoin.pdf"
 
 
-footer-links:
-  About: "about"
-  Whitepaper: "whitepaper"
-  Resources:
-    - GITHUB: "https://github.com/misericordae/"
-    - EXCHANGE: "https://misericordae.github.io/exchangeonni/"
-    - METAMASK: "https://metamask.io/"
-    - MYETHERWALLET(MEW): "https://www.myetherwallet.com/#offline-transaction"
-    - ETHERSCAN: "https://etherscan.io/"
-    - ETHPLORER: "https://ethplorer.io/"
-    - CCN: "https://ccn.com/"
-    - COINTELEGRAPH: "https://cointelegraph.com/news/"
-    - BLOCKCHAIN BY SATOSHI NAKAMOTO: "https://bitcoincore.org/bitcoin.pdf"
 
   #Misericordae's home: "https://misericordae.github.io"
 
