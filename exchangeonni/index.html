@@ -41,6 +41,56 @@ li {
 
        <div class="onni">
        <h1>SWAP ONNI</h1>
+
+       <div id="token-history-grouped-3"></div>
+       <script type="text/javascript">
+           if (typeof (eWgs) === 'undefined') {
+               document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
+               var eWgs = [];
+           }
+           eWgs.push(function () {
+               ethplorerWidget.init(
+                   '#token-history-grouped-3', // Placeholder element
+                   'tokenHistoryGrouped', // Widget type
+                   {
+                       'theme': 'dark',
+                       options: {
+
+                           'title': 'ONNICOIN',
+                           'hAxis': {
+                               'title': '90 days coin operations chart',
+                           },
+                           'vAxis': {
+                               'title': 'Coin operations',
+                           }
+                       }
+                   }
+
+               );
+           });
+       </script>
+
+
+       <div id="token-txs-10"></div>
+       <script type="text/javascript">
+           if (typeof (eWgs) === 'undefined') {
+               document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
+               var eWgs = [];
+           }
+           eWgs.push(function () {
+               ethplorerWidget.init(
+                   '#token-txs-10', // Placeholder element
+                   'tokenHistory', // Widget type
+                   {
+                       address: '', // keep empty to show all tokens
+                       limit: 6, // Number of records to show
+                   }
+
+               );
+           });
+       </script>
+
+
      </br>
        <h3>DECENTRALIZED EXCHANGE BETWEEN ONNI AND BITCOIN, BITCOIN CASH, LITECOIN, ETHER, ERC20 TOKENS, DASH, ZCASH & OTHER CRYPTOCURRENCIES</h3>
 
