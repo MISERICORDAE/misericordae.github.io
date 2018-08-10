@@ -42,33 +42,44 @@ li {
        <div class="onni">
        <h1>SWAP ONNI</h1>
 
-       <div id="token-history-grouped-3"></div>
-       <script type="text/javascript">
-           if (typeof (eWgs) === 'undefined') {
-               document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
-               var eWgs = [];
-           }
-           eWgs.push(function () {
-               ethplorerWidget.init(
-                   '#token-history-grouped-3', // Placeholder element
-                   'tokenHistoryGrouped', // Widget type
-                   {
-                       'theme': 'dark',
-                       options: {
+       <div id="token-history-grouped-1"></div>
+  <script type="text/javascript">
+  if (typeof (eWgs) === 'undefined') {
+      document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
+      var eWgs = [];
+  }
+  eWgs.push(function () {
+      ethplorerWidget.init(
+          '#token-history-grouped-1', // Placeholder element
+          'tokenHistoryGrouped', // Widget type
+          {
+                'theme': 'dark',
+                options: {
 
-                           'title': 'ONNICOIN',
-                           'hAxis': {
-                               'title': '90 days coin operations chart',
-                           },
-                           'vAxis': {
-                               'title': 'Coin operations',
-                           }
-                       }
-                   }
+                    'title': 'Ethereum Tokens Pulse',
+                    'hAxis': {
+                        'title': '90 days token operations chart',
+                    },
+                    'vAxis': {
+                        'title': 'Token operations',
+                    }
+                }
+            }
+          {
+              // token address
+              'address': '0xBd9c6028e1132A6B52F1ca15C0933A2FD342E21f',
+              options: {
+                  'title': 'ONNICOIN',
+                  'pointSize': 5,
+                  'vAxis': {
+                      'title': 'Coin operations',
+                  }
+              }
+          }
 
-               );
-           });
-       </script>
+      );
+  });
+  </script>
 
 
      </br>
@@ -136,7 +147,7 @@ li {
       <body>
         <p><div class="col-sm-3"><img class="img-responsive" src="/img/airswap.png"/></div>
              <div class="col-sm-7"><h4>SWAP ONNI HERE <i>pending update</i></h4>
-          
+
 </br>
              <button onclick="buy();" class="btn btn-primary">Buy ONNI</button>
              <button onclick="sell();" class="btn btn-primary">Sell ONNI</button>

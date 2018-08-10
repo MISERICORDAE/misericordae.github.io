@@ -76,39 +76,6 @@ eWgs.push(function () {
 
 
 
-<div id="token-history-grouped-2"></div>
-<script type="text/javascript">
-    if (typeof (eWgs) === 'undefined') {
-        document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
-        var eWgs = [];
-    }
-    eWgs.push(function () {
-        ethplorerWidget.init(
-            '#token-history-grouped-2', // Placeholder element
-            'tokenHistoryGrouped', // Widget type
-            {
-                'period': 60,
-                'type': 'column', // supported types: area, column, line
-                options: {
-                    'title': 'ONNICOIN',
-                    'pointSize': 2,
-                    'hAxis': {
-                        'title': '60 days operations chart',
-                        'titleTextStyle': {
-                            'color': '#007700',
-                            'italic': true
-                        }
-                    },
-                    'vAxis': {
-                        'title': 'Coin operations',
-                    }
-                }
-            }
-
-        );
-    });
-</script>
-
 </br>
 
    <h3>FEATURED ENTERPRISE ADOPTERS</h3>
